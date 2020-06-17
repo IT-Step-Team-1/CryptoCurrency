@@ -1,0 +1,22 @@
+[INFO][2020-06-13 10:11:2] Started Logging 
+[INFO][2020-06-13 10:11:2] Log File Name: Logs/Log 2020-06-13 10-11-2.txt 
+[INFO][2020-06-13 10:11:2] Starting Mainloop 
+[INFO][2020-06-13 10:11:2] [API().getTransactions] Returned json structure 
+[INFO][2020-06-13 10:11:2] Json structure length is 3 
+[INFO][2020-06-13 10:11:2] Starting search in json structure Status: 0 
+[WARN][2020-06-13 10:11:2] Found txn with Status: 0 
+[INFO][2020-06-13 10:11:2] Txn ID: 3 
+[INFO][2020-06-13 10:11:2] Txn ETH Address: 0xeeb2a07282E624E83DA33291aEb11908996499b3 
+[INFO][2020-06-13 10:11:2] Txn Value: 20 
+[INFO][2020-06-13 10:11:2] [BlockChain] Checking balance 0x6ace58eCa55522a460927F48b8Cc47A3b9DF986b 
+[INFO][2020-06-13 10:11:2] [BlockChain] Enough tokens, balance is 9282 need 20 
+[WARN][2020-06-13 10:11:2] [BlockChain] Creating Transaction  Id: 3; To: 0xeeb2a07282E624E83DA33291aEb11908996499b3; Value: 20 
+[INFO][2020-06-13 10:11:2] [BlockChain] Transaction Created, Id: 3 
+[WARN][2020-06-13 10:11:2] [BlockChain] Signing Transaction, Id: 3 
+[INFO][2020-06-13 10:11:2] [BlockChain] Transaction Singing Successful, Id: 3 
+[WARN][2020-06-13 10:11:2] [BlockChain] Sending Transaction in BlockChain, Id: 3 
+[INFO][2020-06-13 10:11:2] [BlockChain] Transaction Successfuly Sended Hash: 0x4488150698f420487aa22867779d4c5dd695ec034a0376e9a98710718e251ff2 
+[WARN][2020-06-13 10:11:2] Changing transaction Status in DB, Id: 3 
+[INFO][2020-06-13 10:11:2] Successfuly Changing Status in DB, Id: 3 
+[INFO][2020-06-13 10:11:2] Transaction with Id: 3 successfuly processed 
+[INFO][2020-06-13 10:11:2] Sleep 100 sec 

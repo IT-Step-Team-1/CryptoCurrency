@@ -3,7 +3,7 @@ from time import sleep
 from BlockChainModule import blockChain_connect
 from LogModule import Logging
 from RequestModule import API
-from Config import API_Settings, BLOCKCHAIN
+from MainConfig import API_Settings, BLOCKCHAIN
 
 global log
 

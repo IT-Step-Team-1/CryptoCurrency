@@ -1,7 +1,7 @@
 from ethtoken.abi import EIP20_ABI
 from web3 import Web3, HTTPProvider, IPCProvider
 
-from Config import BLOCKCHAIN
+from MainConfig import BLOCKCHAIN
 
 
 class blockChain_connect():
